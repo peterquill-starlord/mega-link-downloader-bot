@@ -6,15 +6,15 @@ else:
     from config import Config
 
 class Translation(object):
-    START_TEXT = f"""<b>Hello there,</b>
+    START_TEXT = f"""<b>🤖 Hello!</b>
     
-I am a <b>Mega Link Downloader</b> bot!
+🤖 I am a <b>Mega Link Downloader</b> bot!
 
-Just enter your mega.nz link and I will return the file/video to you!😇
+Just enter your mega.nz link and I will return the file/video to you!
 
-💠 I can set custom captions and custom thumbnails too!
+⚫ I can set custom captions and custom thumbnails too!
 
-💠 I can download links which are bigger than 2GB too! 😍
+⚫ I can download links which are bigger than 2GB too!
 
 Press /help for more details!
 
@@ -40,7 +40,7 @@ Press /help for more details!
 
 ❇️ <b>If you want a custom thumbnail for your uploads send a photo before sending the mega link!.</b> <i>(This step is Optional)</i>
 
-💠 It means it is not necessary to send an image to include as an thumbnail.
+⚫️ It means it is not necessary to send an image to include as an thumbnail.
 If you don't send a thumbnail the video/file will be uploaded with an auto genarated thumbnail from the video.
 The thumbnail you send will be used for your next uploads!
 
@@ -49,9 +49,9 @@ press /deletethumbnail if you want to delete the previously saved thumbnail.
 
 ❇️ <b>Special feature</b> :- <i>Set caption to any file you want!</i>
 
-💠 Select an uploaded file/video or forward me <b>Any Telegram File</b> and Just write the text you want to be on the file as a reply to the File by selecting it (as replying to a message😅) and the text you wrote will be attached as caption!😍
+⚫️ Select an uploaded file/video or forward me <b>Any Telegram File</b> and Just write the text you want to be on the file as a reply to the File by selecting it (as replying to a message) and the text you wrote will be attached as caption!
 
-Ex:- <a href="https://telegra.ph/file/bdc35efc07712050bc418.jpg">Send Like This! It's Easy🥳</a>
+Ex:- <a href="https://telegra.ph/file/bdc35efc07712050bc418.jpg">Send Like This! It's Easy</a>
 
 <b>Note</b> :- You can download links which are bigger than 2GB from me too! Due to telegram API limits I can't upload files which are bigger than 2GB so I will split such files and upload them to you!
 
