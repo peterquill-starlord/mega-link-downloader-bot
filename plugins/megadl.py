@@ -112,7 +112,7 @@ async def mega_dl(bot, update):
                     the_file_size = int(fsize)
                     await bot.edit_message_text(
                         chat_id=update.chat.id,
-                        text="<b>Files detected</b> : " + fname + "\n" + "<b>Size</b> : " + humanbytes(the_file_size) + "\n" + "\n" + Translation.DOWNLOAD_START,
+                        text="<b>📁 File Name</b> : " + fname + "\n" + "<b>💽 Size</b> : " + humanbytes(the_file_size) + "\n" + "\n" + Translation.DOWNLOAD_START,
                         message_id=usermsg.message_id
                     )
                     megalink = url
@@ -186,7 +186,7 @@ async def mega_dl(bot, update):
                             try:
                                 await bot.edit_message_text(
                                     chat_id=update.chat.id,
-                                    text="<b>Detected Size</b> : " + humanbytes(file_size) + "\n" + "\n" + "<i>Splitting files...</i>\n\n<code>The downloaded file is bigger than 2GB! But due to telegram API limits I can't upload files which are bigger than 2GB 🥺. So I will split the files and upload them to you. 😇</code>",
+                                    text="<b>📁 Detected Size</b> : " + humanbytes(file_size) + "\n" + "\n" + "<b>📁 Splitting files... ✂️</b>\n\n<code><b>⚠️ The downloaded file is bigger than 2GB!</b>\n<b>✂️ So I will split the files and upload them to you.</b></code>", 
                                     message_id=usermsg.message_id
                                 )
                                 splitting_size = 2040108421
