@@ -291,14 +291,14 @@ async def mega_dl(bot, update):
         else:
             await bot.send_message(
                 chat_id=update.chat.id,
-                text=f"""Sorry! Folder links are not supported!""",
+                text=f"""<b>⚠️ Sorry! Folder links are not supported! ⚠️</b>""",
                 reply_to_message_id=update.message_id
             )
             return
     else:
         await bot.send_message(
             chat_id=update.chat.id,
-            text=f"""<b>I am a mega.nz link downloader bot! 😑</b>\n\nThis not a mega.nz link. 😡""",
+            text=f"""<b>⚠️ This not a mega.nz link... ⚠️</b>""",
             reply_to_message_id=update.message_id
         )
         return
